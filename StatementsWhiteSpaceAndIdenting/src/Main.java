@@ -19,5 +19,7 @@ public class Main {
             System.out.println("It's now zero);
         }
 
+        System.out.println("anotherVariable = " + anotherVariable);
+
     }
 }
