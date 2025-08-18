@@ -10,6 +10,7 @@ public class Challenge {
         System.out.println("isNoReminder = " + isNoReminder);
         if (!isNoReminder) {
             System.out.println("got some reminder");
+            System.out.println("got some reminder");
         }
     }
 }
