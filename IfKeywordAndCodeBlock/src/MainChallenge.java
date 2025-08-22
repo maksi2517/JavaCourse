@@ -6,35 +6,25 @@ public class MainChallenge {
         int levelCompleted = 5;
         int bonus = 100;
 
-        int finalScore = score;
-
-        calculateScore();
+        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("High Score: " + highScore);
 
         score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
-        finalScore = score;
-        if (gameOver) {
-            finalScore += (levelCompleted * bonus);
-            System.out.println("Your final Score was: " + finalScore);
-        }
-
-
+        System.out.println("The next highScore is " +
+                            calculateScore(gameOver, score, levelCompleted, bonus));
     }
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus, int finalScore) {
-
-        boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         int finalScore = score;
         if (gameOver) {
             finalScore += (levelCompleted * bonus);
             finalScore += 1000;
-            System.out.println("Your final Score was: " + finalScore);
         }
+
+        return finalScore;
     }
 }
