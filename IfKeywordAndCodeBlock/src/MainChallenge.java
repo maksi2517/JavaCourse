@@ -23,7 +23,7 @@ public class MainChallenge {
 
     }
 
-    public static void calculateScore() {
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus, int finalScore) {
 
         boolean gameOver = true;
         int score = 800;
