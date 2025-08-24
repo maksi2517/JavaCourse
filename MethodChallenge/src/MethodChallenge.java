@@ -3,7 +3,7 @@ public class MethodChallenge {
     public static void main(String[] args) {
 
         int highScorePosition = calculateHighScorePosition(1500);
-        displayHighScorePosition("Tim", highScorePosition);
+        displayHighScorePosition("Max", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(1000);
         displayHighScorePosition("Bob", highScorePosition);
