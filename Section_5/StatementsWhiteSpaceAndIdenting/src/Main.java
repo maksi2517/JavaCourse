@@ -16,7 +16,7 @@ public class Main {
         System.out.println("myVariable = " + myVariable);
 
         if (myVariable == 0) {
-            System.out.println("It's now zero);
+            System.out.println("It's now zero");
         }
 
         System.out.println("anotherVariable = " + anotherVariable);
