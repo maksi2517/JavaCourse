@@ -14,8 +14,8 @@ public class AreaCalculator {
             return -1;
         }
 
-        double area = Math.PI * (radius * radius);
-        return area;
+        return Math.PI * (radius * radius);
+
 
     }
 
