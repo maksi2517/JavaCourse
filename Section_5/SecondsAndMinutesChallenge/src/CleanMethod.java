@@ -13,9 +13,8 @@ public class CleanMethod {
             return "Invalid data of seconds (" + seconds + "), must be a positive integer value";
         }
 
-        int minutes = seconds / 60;
-        seconds %= 60;
-        return getDurationString(minutes, seconds);
+        // int minutes = seconds / 60;
+        return getDurationString(seconds / 60, seconds % 60);
     }
 
     public static String getDurationString (int minutes, int seconds) {
@@ -28,16 +27,10 @@ public class CleanMethod {
         }
 
         int hours = minutes / 60;
-        // System.out.println("hours = " + hours);
 
         int remainingMinutes = minutes % 60;
-        // System.out.println("minutes = " + minutes);
-        // System.out.println("remainingMinutes = " + remainingMinutes);
 
-        int remainingSeconds = seconds % 60;
-        // System.out.println("seconds = " + seconds);
-
-        return hours + "h " + remainingMinutes + "m " + remainingSeconds + "s";
+        return hours + "h " + remainingMinutes + "m " + seconds + "s";
 
     }
 }
