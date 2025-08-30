@@ -13,9 +13,6 @@ public class NumberOfDaysInMonth {
         System.out.println(getDaysInMonth(-1, 2020));
         System.out.println(getDaysInMonth(1, -2020));
 
-
-
-
     }
 
     public static boolean isLeapYear(int year) {
