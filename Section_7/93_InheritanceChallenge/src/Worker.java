@@ -25,7 +25,7 @@ public class Worker {
         return 0.0;
     }
 
-    public void terminate () {
+    public void terminate (String endDate) {
         this.endDate = endDate;
     }
 
