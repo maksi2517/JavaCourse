@@ -58,13 +58,13 @@ class Motherboard extends Product {
 }
 class ComputerCase extends Product {
 
-    private int powerSupply;
+    private String powerSupply;
 
     public ComputerCase (String model, String manufacturer) {
         super(model, manufacturer);
     }
 
-    public ComputerCase(String model, String manufacturer, int powerSupply) {
+    public ComputerCase(String model, String manufacturer, String powerSupply) {
         super(model, manufacturer);
         this.powerSupply = powerSupply;
     }
