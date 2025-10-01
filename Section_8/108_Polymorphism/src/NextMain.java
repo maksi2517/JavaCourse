@@ -17,5 +17,6 @@ public class NextMain {
 
         var plane = new Comedy("Airplane");
         plane.watchMovie();
+
     }
 }
