@@ -48,6 +48,7 @@ public class Main {
         } else  {
             System.out.println("❌ s1 not equals s2");
         }
+
     }
 
     private static int [] getRandomArray(int len) {
