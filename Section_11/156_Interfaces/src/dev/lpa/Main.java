@@ -61,14 +61,14 @@ public class Main {
     private static void triggerFliers(List<FlightEnabled> fliers) {
 
         for(var flier : fliers) {
-            flier.fly();
+            flier.takeOff();
         }
     }
 
     private static void flyFliers(List<FlightEnabled> fliers) {
 
         for(var flier : fliers) {
-            flier.takeOff();
+            flier.fly();
         }
     }
 
