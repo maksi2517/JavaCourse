@@ -3,7 +3,7 @@ package notSolved;
 /**
  * @author andrea
  * @version 1.0
- * @see c:\andrea\programming\\units\java\Test.java  //Blöder Fehler mit \\u, wenn man nur mit einem Backslash schreibt
+ * @see c:\andrea\programming\u3070\java\Test.java
  */
 
 public class MainHelloWorld {

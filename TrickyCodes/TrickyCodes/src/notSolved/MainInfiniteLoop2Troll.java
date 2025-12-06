@@ -2,8 +2,6 @@ package notSolved;
 
 public class MainInfiniteLoop2Troll {
     public static void main(String[] args) {
-        //Keine richtige Lösung
-        //zwei verschiedene Symbole für i: 1.: i, 2.: і
         int i = 1;
         int і = 2;
 

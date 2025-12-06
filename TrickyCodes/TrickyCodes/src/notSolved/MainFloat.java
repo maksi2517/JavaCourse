@@ -13,6 +13,4 @@ public class MainFloat {
         System.out.println(6.0 - 5.40);
     }
 
-    //Zahl in Java inv: unendlich z.B. Division durch 0
-
 }

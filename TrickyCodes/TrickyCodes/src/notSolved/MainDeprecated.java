@@ -1,7 +1,7 @@
 package notSolved;
 
 public class MainDeprecated {
-    @Deprecated //sollte man vermeiden, können jedoch trotzdem verwendet werden
+    @Deprecated
     public static void myMethod() {
 
     }
